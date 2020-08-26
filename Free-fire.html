@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/styles.css">
   <title>Free Fire</title>
@@ -16,13 +18,13 @@
 <body>
   <header class="container-fluid bg-light">
 
-    <nav class="navbar navbar-expand-lg navbar-light mt-2">
+    <nav class="navbar navbar-expand-lg navbar-light mt-2 ">
       <a href="https://www.freefiregame.com.br/" target="_black" class="navbar-brand">Ir para free fire Brasil</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#teste">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse" id="teste">
-        <div class="navbar-nav">
+      <div class="navbar-collapse collapse d-flex justify-content-center" id="teste" >
+        <div class="navbar-nav w-75 d-flex justify-content-between">
           <li href="#" class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -160,7 +162,7 @@
       </form> -->
     </nav>
   </header>
-  <section class="container-fluid mt-2 bg-light">
+  <section class="container-fluid mt-2 bg-light d-flex align-items-center flex-column ">
     <img src="" alt="" class="img-fluid img-thumbnail p-5 mt-5" id="capa">
     <div id="res" class="text-center text-warning mt-5"></div>
   </section>
@@ -195,7 +197,7 @@
           <small> https://www.techtudo.com.br</small></a></cite>
     </p>
     <aside class="container-fluid ">
-      <figure class="figure mt-2">
+      <figure class="figure mt-2 d-flex align-items-center flex-column">
         <figcaption class="figure-caption text-dark text-center mb-3">Imagem do Jogo Dayz: </figcaption>
         <img src="imagens/dayz/dayz.jpg" alt="" class="img-fluid img-thumbnail p-5">
       </figure>
@@ -508,7 +510,7 @@
       </section>
       <hr>
       <section class="container-fluid mt-2">
-        <div class="row">
+        <div class="row d-flex flex-wrap">
           <div class="card col-md-3" style="width: 18rem;">
             <img src="imagens/modal-card/alok.jpg" alt="" class="card-img-top">
             <div class="card-body">
@@ -744,19 +746,18 @@
 
       </div>
   </main>
-  <footer class="container-fluid bg-dark row">
-    <figure class=" figure d-flex col-md-4 ">
-      <img src="imagens/plataformas/instagram.png" alt="">
-      <p class="mt-5 pt-4 text-white">@freefirebr_oficial</p>
-    </figure>
-    <figure class=" figure d-flex col-md-4">
-      <img src="imagens/plataformas/facebook.png" alt="" class="mt-4">
-      <p class=" mt-5 pt-4 ml-4 text-white">freefirebr</p>
-    </figure>
-    <figure class=" figure d-flex col-md-4">
-      <img src="imagens/plataformas/twitter.png" alt="" class="mt-4 ">
-      <p class="mt-5 pt-4 ml-4 text-white">@FreeFireBR</p>
-    </figure>
+  <footer class="container-fluid bg-dark row d-flex justify-content-around">
+  
+
+    <li><a href="https://www.facebook.com/freefirebr/" target="_black" class="d-flex align-items-center"><i class="fa fa-facebook-square fa-3x mr-3" aria-hidden="true"></i>
+      @freefirebr
+</a></li>
+    <li><a href="https://www.instagram.com/freefirebr_oficial/?hl=pt-br" target="_black"  class="d-flex align-items-center text-danger"><i class="fa fa-instagram fa-3x mr-3" aria-hidden="true"></i>
+            @freefirebr_oficial
+</a></li>
+    <li><a href="https://twitter.com/FreeFireBR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"  target="_black" class="d-flex align-items-center text-info"><i class="fa fa-twitter-square fa-3x mr-3 " aria-hidden="true"></i>
+      @FreeFireBR
+</a></li>
   </footer>
 
 
